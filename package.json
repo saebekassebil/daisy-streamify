@@ -1,0 +1,23 @@
+{
+  "name": "daisy-streamify",
+  "version": "0.0.1",
+  "description": "A utility to stream an entire DAISY 2.02 book as one audio file",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^0.9.0",
+    "daisy-resources": "^0.1.0",
+    "mp3-concat": "~0.1.1",
+    "smil-clockvalue": "0.0.1",
+    "trumpet": "1.6.3"
+  },
+  "keywords": [
+    "DAISY",
+    "stream",
+    "audio"
+  ],
+  "author": "Jakob Miland",
+  "license": "MIT",
+  "devDependencies": {
+    "mkdirp": "^0.5.0"
+  }
+}
